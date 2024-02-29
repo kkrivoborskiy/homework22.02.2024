@@ -24,6 +24,8 @@ def work_with_phonebook():
         elif choice==6:
             lastname=input('lastname ')
             delete_by_lastname(phone_book,lastname)
+        elif choice==7:
+            write_txt('phonebook.txt',phone_book)
         choice=show_menu()
 
 def show_menu():
